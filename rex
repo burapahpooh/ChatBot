@@ -1,1 +1,1 @@
-json(concat(substring(string(items('Find_Description_Loop'))),0,sub(length(string(items('Find_Description_Loop'))),1)),',"src_description":"',json(body('ReplaceBlank'))['ReplacedText'],'","src_img":"https://github.com/burapahpooh/ChatBot/blob/main/CISA-WARNED.jpg"}'))
+json(concat(substring(string(items('Find_Description_Loop')),0,sub(length(string(items('Find_Description_Loop'))),1)),',"src_description":"',json(body('ReplaceBlank'))['ReplacedText'],'","src_img":"https://github.com/burapahpooh/ChatBot/blob/main/CISA-WARNED.jpg"}'))
